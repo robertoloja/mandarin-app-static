@@ -6,7 +6,7 @@ hello
   axios.get('https://mandobot.pythonanywhere.com/api/hello')
   .then(function (response) {
     // handle success
-    document.getElementById("p1").innerHTML = response.data.fact;
+    document.getElementById("p1").innerHTML = response.data.message;
     console.log(response);
   })
   .catch(function (error) {
