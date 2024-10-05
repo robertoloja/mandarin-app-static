@@ -3,7 +3,7 @@ hello
 
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 <script>
-  axios.get('https://catfact.ninja/fact')
+  axios.get('https://mandobot.pythonanywhere.com/api/hello')
   .then(function (response) {
     // handle success
     document.getElementById("p1").innerHTML = response.data.fact;
